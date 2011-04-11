@@ -18,7 +18,7 @@ BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php-channel(pear.horde.org)
 Requires:	php-dom
 Requires:	php-horde-Horde_Url < 2.0.0
-Requires:	php-pear
+Requires:	php-pear >= 4:1.3.6-2
 Suggests:	php-ctype
 Suggests:	php-filter
 Suggests:	php-horde-Horde_Imap_Client

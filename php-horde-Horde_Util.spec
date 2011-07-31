@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Utility Libraries
 Name:		php-horde-Horde_Util
-Version:	1.0.0
+Version:	1.0.2
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	68d8a45480d3b6ddddf7677c46f6171b
+# Source0-md5:	68d01146449106c56181d2b4e1e1f759
 URL:		https://github.com/horde/horde/tree/master/framework/Util/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl

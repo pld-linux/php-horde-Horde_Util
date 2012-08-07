@@ -4,7 +4,7 @@
 Summary:	%{pearname} - Horde Utility Libraries
 Name:		php-horde-Horde_Util
 Version:	1.4.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
@@ -15,8 +15,8 @@ BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR >= 1:1.7.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
+Requires:	php(dom)
 Requires:	php-channel(pear.horde.org)
-Requires:	php-dom
 Requires:	php-horde-Horde_Url < 2.0.0
 Requires:	php-pear >= 4:1.3.6-2
 Suggests:	php-ctype

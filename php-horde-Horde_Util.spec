@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Horde_Util
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Utility Libraries
 Name:		php-horde-Horde_Util
 Version:	1.4.0

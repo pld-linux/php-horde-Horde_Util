@@ -3,7 +3,7 @@
 Summary:	%{pearname} - Horde Utility Libraries
 Name:		php-horde-Horde_Util
 Version:	1.4.0
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
